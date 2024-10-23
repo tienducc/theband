@@ -1,0 +1,126 @@
+/* Breakpoint */
+
+/* pc >= 1024px */
+@media (min-width: 1024px) {
+}
+
+/* tablet and ipad: >= 740px and < 1024px */
+@media (min-width: 740px) and (max-width: 1023px) {
+  #content .about {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #content .heading-together {
+    width: 800px;
+    max-width: 100%;
+  }
+}
+
+/* Mobile: < 740px */
+@media (max-width: 740px) {
+  #content .heading-together {
+    width: 100%;
+  }
+  .heading > li {
+    display: block;
+  }
+
+  #header > ul {
+    display: block;
+  }
+  .search-button .search-button-in {
+    display: none;
+  }
+
+  #header .mobile-menu-btn {
+    display: block;
+  }
+
+  #header .home {
+    display: inline-block;
+  }
+  #header {
+    overflow: hidden;
+  }
+
+  .subnav {
+    position: initial;
+    padding-left: 8px;
+    background: #333;
+  }
+  .subnav li a {
+    color: #fff;
+  }
+
+  .subnav li {
+    padding: 5px 0px;
+  }
+
+  .heading > li > a {
+    padding-top: 4px;
+  }
+
+  .slide,
+  .content1,
+  .content2 {
+    display: none;
+  }
+
+  #content .member-name {
+    font-size: 19px;
+  }
+
+  #content .memberofband {
+    width: initial;
+    float: initial;
+  }
+
+  #content .member-img {
+    width: 70%;
+  }
+
+  .destination-place {
+    float: initial;
+    width: 60%;
+  }
+
+  .form-contact {
+    display: block;
+  }
+
+  .ticket-box li {
+    padding: 13px 16px;
+  }
+
+  .destination .destination-place {
+    width: 100%;
+    margin-right: 15px;
+    margin-top: 40px;
+  }
+
+  .destination .ticket-button {
+    padding: 19px 19px;
+  }
+
+  .contact-form-info {
+    font-size: 20px;
+    margin-bottom: 32px;
+  }
+
+  .col-half {
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  .form-control {
+    padding: 15px;
+  }
+  .submit-btn {
+    font-size: 18px;
+  }
+
+  .modal .modal-container {
+    width: 90%;
+  }
+}
